@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>twitch streamers</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<script src="js/main.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<ul class="filter">
+				<li><a href="#" class="all active">All</a></li>
+				<li><a href="#" class="online">Online</a></li>
+				<li><a href="#" class="offline">Offline</a></li>
+			</ul>
+			<div id="search-form">
+				<input type="text" name="search-text" id="search-text" placeholder="Search...">
+				<button type="submit" id="search-submit"><i class="fa fa-search fa-large" aria-hidden="true"></i></button>
+			</div>
+			<ul id="streamers-list"></ul>
+		</div>
+	</body>
+</html>
